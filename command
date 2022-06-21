@@ -1,1 +1,1 @@
-Invoke-Command -ScriptBlock {del /f/s/q D:\webroot\ > nul} -ComputerName $Credential
+Invoke-Command -ScriptBlock {Remove-Item D:\webroot\*.*} -ComputerName $name -Credential $Credential
